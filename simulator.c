@@ -111,12 +111,13 @@ void print(struct node * r)
 void makeZero(struct node * r)
 {
 	
-	int i;
+	
 	r->current_child=0;
 	//r->state=0;
 	
 	if(r->no_children>0)
 	{	
+		int i;
 		for(i=0;i<r->no_children;i++)
 		{
 			makeZero(r->children[i]);
@@ -195,7 +196,7 @@ return assign_root;
 
 struct node* solve_expression_E3(int start, int end)
 {
-	int flag;
+	int flag = 0;
 	if(token[start] == '(')
 		flag = 1;
 	else if(isAlpha(token[start]) == 1)
@@ -887,13 +888,15 @@ void output(char var_name[100])
 
 char * give_value(char var_name[100])
 {
-	int i, flag = 0;
+	int i;
 	for(i=0;i<variable_index;i++)
 	{
+		int flag = 0;
 		if(strcmp(variable_name[i], var_name) == 0)
 		{
-			return variable_value[i];
 			flag = 1;
+			return variable_value[i];
+			
 		}
 	}
 
