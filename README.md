@@ -15,6 +15,46 @@ This program takes in basic C text file as an input (input to be given in input.
 
 ----------------------------------------------------------------------------------------------------------------------------------
 
+# Syntax:
+##### Variable assignment:
+`a = 5;` <br>
+`a[1] = 5l` <br>
+`a = b;` [`b` is previously assigned, else will give an error] <br>
+
+##### While Loop:
+```
+while( Condition )
+{
+  Statement;
+};
+```
+*Note* : There is a `;` after the `while loop` closing curly braces. <br>
+
+##### Operations :
+
+Operations are similar to that in `C` language: <br>
+
+###### Addition:
+`a = a + 1;` <br>
+`a = b + c;`<br>
+`a = 5 + 3;`<br>
+###### Subtraction:
+`a = a - 1;` <br>
+`a = b - c;`<br>
+`a = 5 - 3;`<br>
+###### Multiplication:
+`a = a * 1;` <br>
+`a = b * c;`<br>
+`a = 5 * 3;`<br>
+###### Division:
+`a = a / 1;` <br>
+`a = b / c;`<br>
+`a = 5 / 3;`<br>
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------
+
 # Description of the Grammar: (with print and read commands)
 
 P -> S; | S;P <br>
