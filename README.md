@@ -1,4 +1,3 @@
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/4a53f12f18324c6282446fba2e9e1554)](https://www.codacy.com?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=pvskand/mini-c&amp;utm_campaign=Badge_Grade)
 
 # Team Members:
 1) Aakarshan Gupta 
