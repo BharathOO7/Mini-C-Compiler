@@ -1,12 +1,3 @@
-
-# Team Members:
-1) Aakarshan Gupta 
-2) Himanshu Tolani 
-3) Jatin Garg 
-4) Saumya Goyal 
-5) Skand Vishwanath Peri 
-----------------------------------------------------------------------------------------------------------------------------------
-
 # Description of Program:
 
 This program takes in basic C text file as an input (input to be given in input.txt) and simulates that C program and results the output.
